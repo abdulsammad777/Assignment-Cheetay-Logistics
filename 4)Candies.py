@@ -20,7 +20,7 @@ def candyStore(arr, N, K):
 		j -= 1
 
 
-	return min, max
+	print(min, max)
 
 """List sort method by default an implementation of Timesort that takes O(n * log n)"""
 # candies.sort()
@@ -48,7 +48,7 @@ candies = [3, 2, 1, 4, 5]
 QuickSort(candies, 0,len(candies)-1)
 N = len(candies)
 K = 4
-print(candyStore(candies, N, K))
+candyStore(candies, N, K)
 
 
 

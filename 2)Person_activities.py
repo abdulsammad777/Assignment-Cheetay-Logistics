@@ -1,5 +1,7 @@
 
 def activityselection(n, start, end):
+    if n == 1:
+        return 1
     # checking if there's any need to sort with end time.
     test_sort = end[:]
     test_sort.sort()
@@ -31,8 +33,8 @@ start = [1, 3, 2, 5]
 end = [2, 4, 3, 6]
 # start = [2, 1]
 # end = [2, 2]
-
-print(activityselection(4, start, end))
+N = 4
+print(activityselection(N, start, end))
 
 """List sort method by default an implementation of Timesort that takes O(n * log n)
 so time complexity will be  O(n * log n) and space complexity will be O(n)"""
