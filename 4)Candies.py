@@ -1,6 +1,7 @@
 
 def candyStore(arr, N, K):
-
+	if N == 1:
+		return 1
 	min, max = 0, 0
 	i = 0
 	j = N-1
