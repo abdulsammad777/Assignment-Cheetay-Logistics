@@ -38,7 +38,7 @@ def spirallyTraverse(R, C, matrix):
             break
         j, k = row_max, col_min
 
-        while j >= row_min:
+        while j > row_min:
             Spiral_form.append(matrix[j][k])
             j -= 1
             counter +=1
