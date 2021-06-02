@@ -1,7 +1,7 @@
 
 def countMin(s):
     if len(s) == 1:
-        return 1
+        return 0
     # reversing string and checking for pre condition.
     reverse = ''
     for i in range(len(s)-1, -1, -1):
